@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--========== BOXICONS ==========-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+   <!--========== CSS ==========-->
+   <link rel="stylesheet" href="assests/style.css">
+   <title>Relógio Online</title>
+   <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+</head>
+<body>
+   <section class="clock container">
+      <div class="clock__container grid">
+         <div class="clock__content grid">
+            <div class="clock__circle">
+               <span class="clock__twelve"></span>
+               <span class="clock__three"></span>
+               <span class="clock__six"></span>
+               <span class="clock__nine"></span>
+
+               <div class="clock__rounder"></div>
+               <div class="clock__hour" id="clock-hour"></div>
+               <div class="clock__minutes" id="clock-minutes"></div>
+               <div class="clock__seconds" id="clock-seconds"></div>
+
+               <!-- Dark/light button -->
+               <div class="clock__theme">
+                  <i class="bx bxs-moon" id="theme-button"></i>
+               </div>
+            </div>
+
+            <div>
+               <div class="clock__text">
+                  <div class="clock__text-hour" id="text-hour"></div>
+                  <div class="clock__text-minutes" id="text-minutes"></div>
+                  <div class="clock__text-ampm" id="text-ampm"></div>
+               </div>
+
+               <div class="clock__date">
+                  <span id="date-day"></span>
+                  <span id="date-month"></span>
+                  <span id="date-year"></span>
+               </div>
+               <div>
+               </div>
+               <div class="">
+                  <span><br></span>
+                  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/32LAqgzoEwujHlqttCBEvm?utm_source=generator&theme=0" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              </div>
+            </div>
+         </div>
+
+         <a href="https://github.com/caaeduardo" target="_blank" class="clock__logo">Caaeduardo</a>
+      </div>
+   </section>
+
+   <!--========== MAIN JS ==========-->
+   <script src="assests/script.js"></script>
+</body>
+</html>
